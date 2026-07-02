@@ -16,7 +16,7 @@ Scripts used to analyze line scan images and electrophysiology data in our manus
      is poor detection on a small number of sweeps.
     -Cropped images will be placed in a new folder using the file names indicated.
 
-   2) CalculateTransients.m
+2) CalculateTransients.m
     -The cropped images produced in (1) will now be used to calculate deltaG/R and deltaG/G. The sweeps with a signal present must be indicated
      before running the script. If sweeps with failures were named as suggested above this will be simple. If not each sweep with a signal will need
      to be indicated individually. The onset of any provided stimulus and the sampling rate of the line scans being analyzed will also need to be
@@ -30,7 +30,7 @@ Scripts used to analyze line scan images and electrophysiology data in our manus
      for sweeps where failures occurred.
     -Raw data for these traces will be saved as .txt files in a new folder titled 'dGoverR' and 'dGoverG'
 
-    3) peak_scaled_nsfa.m
+3) peak_scaled_nsfa.m
     -Electrophysiology files were acquired using Clampex 10.7 (.abf files) and sorted and analyzed using AxoGraph (saved as .axgx). AxoGraph files were     then exported as MATLAB files (.m). Analysis requires two files, one containing all sweeps individually and a second that contains the average EPSC     waveform.
     -Name files as indicated in comments of script, e.g. 'Date_Cell_EPSCs.mat' and 'Date_Cell_avg_EPSC.mat'
     -The number of data points used for analysis, sampling rate of the file and size of bins can all be adjusted in the first code section
