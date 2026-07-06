@@ -1,4 +1,7 @@
 # -Glutamate-AMPAR-tuning-manuscript
+
+[![DOI](https://zenodo.org/badge/1287469700.svg)](https://doi.org/10.5281/zenodo.21224276)
+
 Contains MATLAB scripts used to perform analysis for calcium imaging and nonstationary fluctuation analysis in Banumurthy et al. 2026
 
 Scripts used to analyze line scan images and electrophysiology data in our manuscript entitled 'Glutamate concentration tuned AMPAR funciton through conductance-state occupancy' in Nature Neuroscience. Scripts used to analyze line scans are identical to those used in our manuscript 'Afferent convergence onto a shared population of interneuron AMPA receptors' published in Nature Communications in 2023.
